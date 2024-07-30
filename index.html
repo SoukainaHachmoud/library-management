@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page d'Accueil</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+
+        .top-page {
+
+            background-size: cover;
+            padding: 70px;
+            text-align: center;
+            color: hsl(0, 32%, 29%);
+
+        }
+
+        .header {
+            border-bottom: 0px solid #ebebee;
+            padding: 120px;
+            background: url('img/img1.jpeg');
+            color: WHITE;
+            text-align: center;
+            font-size: 4em;
+            margin-bottom: 0px;
+            font-family: 'SimSun', sans-serif;
+            text-shadow: 3px 3px 4px hsl(0, 32%, 29%);
+            letter-spacing: 1px;
+            position: relative;
+        }
+
+        .header .navigation {
+            text-align: center;
+            margin-top: 20px;
+            position: absolute;
+            bottom: 10px;
+            width: 100%;
+            left: 0%;
+            padding: 10px 0;
+        }
+
+        .header .navigation a {
+            text-decoration: none;
+            color: #ffffff;
+            padding: 5px 10px;
+            margin: 1 5px;
+            font-size: 0.27em;
+            font-family: 'Simum', sans-serif;
+        }
+
+        .header .navigation a:hover {
+            background-color: #397abb;
+        }
+
+        .top-page h1 {
+            font-size: 3em;
+            margin: 0;
+            font-family: Verdana sans-serif;
+        }
+
+        .top-page p {
+            font-size: 1.2em;
+            margin: 20px 0;
+            color: #080808;
+
+        }
+
+        .section {
+            color: hsl(0, 0%, 4%);
+            padding: 50px 20px;
+            text-align: center;
+            width: 100%;
+            font-family: Verdana sans-serif;
+
+        }
+
+        .section h2 {
+            color: hsl(0, 4%, 5%);
+            font-size: 2em;
+            margin-bottom: 10px;
+
+        }
+
+        .section p,
+        .section ul {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+
+        .footer {
+            background: url('img/img1.jpeg');
+            color: WHITE;
+            padding: 20px;
+            text-align: center;
+            text-shadow: 3px 3px 4px rgb(46, 38, 4);
+            letter-spacing: 1px;
+            position: relative;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <b class="animate-title">Bienvenue à notre Bibliothèque</b>
+        <div class="navigation">
+
+            <a href="signup.html">Inscription</a>
+            <a href="login.html">Connexion</a>
+            <a href="search.html">Recherche de Livres</a>
+            <a href="book_detail.html">Détail du Livre</a>
+            <a href="reservation.html">Gestion des Réservations</a>
+            <a href="profile.html">Profil Utilisateur</a>
+            <a href="admin.html">Administration</a>
+        </div>
+    </div>
+    <div class="top-page">
+        <h1>Découvrez notre collection!</h1>
+        <p>Notre bibliothèque offre une vaste collection de livres allant des classiques aux nouveautés. Venez découvrir
+            un monde de lecture et de savoir.</p>
+    </div>
+    <div class="section">
+        <h2>À propos de notre bibliothèque</h2>
+        <p> <i class="fas fa-info-circle" style="color: #2454da;"></i> Fondée en 1920, notre bibliothèque a servi de
+            phare culturel pour notre communauté pendant plus d'un siècle. Nous nous efforçons de fournir un espace
+            accueillant pour tous les amateurs de livres et de connaissances. Avec une collection de plus de 100,000
+            livres, des archives historiques précieuses, et des ressources numériques modernes, nous répondons aux
+            besoins de chaque visiteur.</p>
+        <p>Nos missions incluent la promotion de la lecture, le soutien à l'éducation et la recherche, et l'organisation
+            d'événements culturels enrichissants. Rejoignez-nous pour explorer, apprendre, et grandir ensemble.</p>
+    </div>
+    <div class="section">
+        <h2>Services offerts</h2>
+        <p><i class="fas fa-concierge-bell" style="color: #9dd308;"></i> Nous offrons une gamme complète de services
+            pour répondre à vos besoins:</p>
+        <ul style="list-style-type: none; padding: 0;">
+            <li><i class="fas fa-book" style="color: #7a6f06e8;"></i> Prêt de livres</li>
+            <li><i class="fas fa-laptop" style="color: #121b4d;"></i> Accès à des ordinateurs et à Internet</li>
+            <li><i class="fas fa-chalkboard-teacher" style="color: #77266c;"></i> Ateliers de lecture et d'écriture</li>
+            <li><i class="fas fa-palette" style="color: #5bd66b;"></i> Ateliers créatifs pour enfants et adultes</li>
+            <li><i class="fas fa-calendar-alt" style="color: #db491d;"></i> Organisation d'événements culturels</li>
+        </ul>
+    </div>
+    <div class="section">
+        <h2>Avis des membres</h2>
+        <p><i class="fas fa-comments" style="color: #2e38be;"></i> Voici ce que nos membres disent de nous :</p>
+        <blockquote style="font-size: 1.1em; font-style: italic; color: #555;">
+            <i class="fas fa-quote-left" style="color: #2e38be;"></i> Une collection incroyable de livres et un
+            personnel très serviable ! <i class="fas fa-quote-right" style="color: #2e38be;"></i> - Alice
+        </blockquote>
+        <blockquote style="font-size: 1.1em; font-style: italic; color: #555;">
+            <i class="fas fa-quote-left" style="color: #2e38be;"></i> J'adore les événements organisés par la
+            bibliothèque, c'est toujours très enrichissant. <i class="fas fa-quote-right" style="color: #2e38be;"></i> -
+            Marc
+        </blockquote>
+    </div>
+    <div class="section">
+        <h2>Contact</h2>
+        <p><i class="fas fa-envelope" style="color: #6495ED;"></i> Nous sommes toujours heureux de vous aider. N'hésitez
+            pas à nous contacter :</p>
+        <p><i class="fas fa-map-marker-alt" style="color: #6495ED;"></i> Adresse: 123 Rue de la Bibliothèque, Kénitra,
+            Maroc</p>
+        <p><i class="fas fa-phone" style="color: #6495ED;"></i> Téléphone: +212 5 44 32 05 05 </p>
+        <p><i class="fas fa-envelope" style="color: #6495ED;"></i> Email: <a
+                href="mailto:contact@bibliotheque.fr">contact@bibliotheque.ma</a></p>
+    </div>
+    <div class="footer">
+        <b> &copy; 2024 Bibliothèque de Kénitra. Tous droits réservés.</b>
+    </div>
+</body>
+
+</html>
